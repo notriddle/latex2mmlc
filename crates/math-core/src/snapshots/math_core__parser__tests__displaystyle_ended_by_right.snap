@@ -16,7 +16,7 @@ expression: "\\left(\\displaystyle \\int\\right)\\int"
         nodes: [
           Operator(
             op: "∫",
-            attrs: OpAttrs(""),
+            attrs: OpAttrs("ROLE_PREFIX"),
             size: None,
             left: Some(Zero),
             right: Some(Zero),
@@ -44,7 +44,7 @@ expression: "\\left(\\displaystyle \\int\\right)\\int"
   ),
   Operator(
     op: "∫",
-    attrs: OpAttrs(""),
+    attrs: OpAttrs("ROLE_PREFIX"),
     size: None,
     left: None,
     right: Some(Zero),

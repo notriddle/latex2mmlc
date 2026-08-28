@@ -7,7 +7,7 @@ expression: "\\mathstrut"
     node: Phantom(
       node: Operator(
         op: "(",
-        attrs: OpAttrs("STRETCHY_FALSE"),
+        attrs: OpAttrs("STRETCHY_FALSE | ROLE_OPEN"),
         size: None,
         left: None,
         right: None,

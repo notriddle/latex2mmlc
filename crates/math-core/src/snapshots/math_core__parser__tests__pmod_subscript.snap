@@ -9,7 +9,7 @@ expression: "\\pmod{3}_4"
   )),
   Operator(
     op: "(",
-    attrs: OpAttrs("STRETCHY_FALSE"),
+    attrs: OpAttrs("STRETCHY_FALSE | ROLE_OPEN"),
     size: None,
     left: None,
     right: None,
@@ -23,7 +23,7 @@ expression: "\\pmod{3}_4"
   Sub(
     target: Operator(
       op: ")",
-      attrs: OpAttrs("STRETCHY_FALSE"),
+      attrs: OpAttrs("STRETCHY_FALSE | ROLE_CLOSE"),
       size: None,
       left: None,
       right: None,
