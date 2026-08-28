@@ -7,14 +7,14 @@ expression: "{\\int = 4}"
     nodes: [
       Operator(
         op: "∫",
-        attrs: OpAttrs(""),
+        attrs: OpAttrs("ROLE_PREFIX"),
         size: None,
         left: Some(Zero),
         right: Some(Zero),
       ),
       Operator(
         op: "=",
-        attrs: OpAttrs(""),
+        attrs: OpAttrs("ROLE_INFIX"),
         size: None,
         left: None,
         right: None,

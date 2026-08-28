@@ -22,6 +22,12 @@ bitflags! {
         const FORM_POSTFIX = 1 << 6;
         const SYMMETRIC_TRUE = 1 << 7;
         const LARGEOP_TRUE = 1 << 8;
+        const ROLE_OPEN = 1 << 9;
+        const ROLE_CLOSE = 1 << 10;
+        const ROLE_PREFIX = 1 << 11;
+        const ROLE_INFIX = 1 << 12;
+        const ROLE_POSTFIX = 1 << 13;
+        const ROLE_RELOP = 1 << 14;
     }
 }
 

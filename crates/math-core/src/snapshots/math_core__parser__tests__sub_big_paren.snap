@@ -7,7 +7,7 @@ expression: "x_\\big("
     target: IdentifierChar("x", Default),
     symbol: Operator(
       op: "(",
-      attrs: OpAttrs(""),
+      attrs: OpAttrs("ROLE_INFIX"),
       size: Some(Scale1),
       left: None,
       right: None,

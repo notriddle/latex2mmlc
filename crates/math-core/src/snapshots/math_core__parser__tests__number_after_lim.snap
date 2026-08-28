@@ -7,7 +7,7 @@ expression: "\\sum\\limits_12"
     symbol: Number("1"),
     target: Operator(
       op: "∑",
-      attrs: OpAttrs("NO_MOVABLE_LIMITS"),
+      attrs: OpAttrs("NO_MOVABLE_LIMITS | ROLE_PREFIX"),
       size: None,
       left: Some(Zero),
       right: None,

@@ -7,7 +7,7 @@ expression: "x_:\\equiv, x_:="
     target: IdentifierChar("x", Default),
     symbol: Operator(
       op: ":",
-      attrs: OpAttrs(""),
+      attrs: OpAttrs("ROLE_INFIX"),
       size: None,
       left: None,
       right: None,
@@ -15,7 +15,7 @@ expression: "x_:\\equiv, x_:="
   ),
   Operator(
     op: "≡",
-    attrs: OpAttrs(""),
+    attrs: OpAttrs("ROLE_INFIX"),
     size: None,
     left: None,
     right: Some(Zero),
@@ -31,7 +31,7 @@ expression: "x_:\\equiv, x_:="
     target: IdentifierChar("x", Default),
     symbol: Operator(
       op: ":",
-      attrs: OpAttrs(""),
+      attrs: OpAttrs("ROLE_INFIX"),
       size: None,
       left: None,
       right: None,
@@ -39,7 +39,7 @@ expression: "x_:\\equiv, x_:="
   ),
   Operator(
     op: "=",
-    attrs: OpAttrs(""),
+    attrs: OpAttrs("ROLE_INFIX"),
     size: None,
     left: None,
     right: Some(Zero),

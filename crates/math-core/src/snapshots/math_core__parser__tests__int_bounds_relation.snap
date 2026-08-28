@@ -8,7 +8,7 @@ expression: "{\\int_0^\\infty = 4}"
       SubSup(
         target: Operator(
           op: "∫",
-          attrs: OpAttrs(""),
+          attrs: OpAttrs("ROLE_PREFIX"),
           size: None,
           left: Some(Zero),
           right: Some(Zero),
@@ -18,7 +18,7 @@ expression: "{\\int_0^\\infty = 4}"
       ),
       Operator(
         op: "=",
-        attrs: OpAttrs(""),
+        attrs: OpAttrs("ROLE_INFIX"),
         size: None,
         left: None,
         right: None,
