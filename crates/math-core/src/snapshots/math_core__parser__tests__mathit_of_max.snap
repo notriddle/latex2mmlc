@@ -6,6 +6,13 @@ expression: "\\mathit{ab \\max \\alpha\\beta}"
   Row(
     nodes: [
       IdentifierStr("𝑎𝑏"),
+      Operator(
+        op: "\u{2062}",
+        attrs: OpAttrs("ROLE_INFIX"),
+        size: None,
+        left: Some(ThreeMu),
+        right: None,
+      ),
       Row(
         nodes: [
           IdentifierStr("max"),
